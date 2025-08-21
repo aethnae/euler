@@ -13,6 +13,10 @@ function p3(n::Int)
     end
   end
 
+  if n > l
+    l = n
+  end
+
   return l
 end
 
